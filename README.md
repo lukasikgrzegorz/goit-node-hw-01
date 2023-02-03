@@ -1,1 +1,2 @@
-# goit-node-hw-01
+Tasks screenshot:
+https://ibb.co/98hkjjz
