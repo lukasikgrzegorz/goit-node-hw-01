@@ -25,6 +25,7 @@ async function removeContact(contactID) {
 		.then((contacts) => contacts.filter((contact) => contact.id !== contactID))
 		.then((contacts) => (content = JSON.stringify(contacts)));
 	await fs.writeFile(contactsPath, content);
+	listContacts();
 }
 
 async function addContact(name, email, phone) {
